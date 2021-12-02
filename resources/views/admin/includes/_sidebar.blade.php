@@ -30,6 +30,13 @@
                     <p>Listes des messages</p>
                 </a>
             </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" href="{{route('user.index')}}">
+                    <i class="material-icons">content_paste</i>
+                    <p>Listes des clients</p>
+                </a>
+            </li>
        
            
             

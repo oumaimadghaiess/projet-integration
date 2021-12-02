@@ -5,6 +5,8 @@ use App\Http\Controllers\ProduitController;
 use App\Http\Controllers\ContactController;
 use App\Models\Produit;
 use App\Models\Contact;
+use App\Http\Controllers\UserController;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +36,4 @@ Route::get('/cart', function () {
 Route::resource('/produit', ProduitController::class);
 Route::get('/home', [App\Http\Controllers\ProduitController::class, 'index1'])->name('home');
 Route::resource('contact', ContactController::class);
+Route::resource('user', UserController::class);
