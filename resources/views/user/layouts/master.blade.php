@@ -38,6 +38,7 @@
 <body>
 
     <div>
+
         @include('user.includes._navbar')
         <div>
             @yield('content')

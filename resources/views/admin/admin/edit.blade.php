@@ -80,7 +80,7 @@
 
         <div class="row">
             <div class="col-12">
-                <a href="#" class="btn btn-secondary mr-2">Annuler</a>
+                
                 <input type="submit" value="Modifier" class="btn btn-success float-right" >
             </div>
         </div>

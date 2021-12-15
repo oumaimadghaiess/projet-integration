@@ -46,7 +46,9 @@ class UserController extends Controller
         ]);
 
         User::create($request->all());
+        Mail::to('email@email.com')->send(new WelcomeMail($user));
         return redirect()->back()->with('success', 'message bien envoyé.');
+
     }
 
     /**

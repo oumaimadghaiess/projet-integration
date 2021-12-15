@@ -86,8 +86,7 @@
             </div>
         </div>
     </div>
-</div>
-<script>
+    <script>
     function PreviewFile(input){
     var file=$("input[type=file]").get(0).files[0];
     if(file){
@@ -100,5 +99,7 @@
     }
     }
     </script>
+
+</div>
 
 @endsection
